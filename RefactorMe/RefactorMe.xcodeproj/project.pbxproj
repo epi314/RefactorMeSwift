@@ -12,7 +12,6 @@
 		400F4489228E42ED00FC56A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400F4487228E42ED00FC56A4 /* LaunchScreen.storyboard */; };
 		400F4494228E42ED00FC56A4 /* RefactorMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400F4493228E42ED00FC56A4 /* RefactorMeTests.swift */; };
 		400F449F228E42ED00FC56A4 /* RefactorMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400F449E228E42ED00FC56A4 /* RefactorMeUITests.swift */; };
-		400F44AE228E45D900FC56A4 /* ProductDataConsolidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400F44AD228E45D900FC56A4 /* ProductDataConsolidator.swift */; };
 		400F44B1228E465D00FC56A4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400F44B0228E465D00FC56A4 /* Product.swift */; };
 		400F44B6228E4CBF00FC56A4 /* Sunglasses.json in Resources */ = {isa = PBXBuildFile; fileRef = 400F44B3228E4CBE00FC56A4 /* Sunglasses.json */; };
 		400F44B7228E4CBF00FC56A4 /* Phones.json in Resources */ = {isa = PBXBuildFile; fileRef = 400F44B4228E4CBE00FC56A4 /* Phones.json */; };
@@ -58,7 +57,6 @@
 		400F449A228E42ED00FC56A4 /* RefactorMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RefactorMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		400F449E228E42ED00FC56A4 /* RefactorMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactorMeUITests.swift; sourceTree = "<group>"; };
 		400F44A0228E42ED00FC56A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		400F44AD228E45D900FC56A4 /* ProductDataConsolidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDataConsolidator.swift; sourceTree = "<group>"; };
 		400F44B0228E465D00FC56A4 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		400F44B3228E4CBE00FC56A4 /* Sunglasses.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sunglasses.json; sourceTree = "<group>"; };
 		400F44B4228E4CBE00FC56A4 /* Phones.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Phones.json; sourceTree = "<group>"; };
@@ -130,7 +128,6 @@
 				8F2636C82290EDE3009E82DB /* Extensions */,
 				400F44B2228E46F600FC56A4 /* Data */,
 				400F44AF228E465000FC56A4 /* Models */,
-				400F44AC228E457C00FC56A4 /* Business */,
 				400F447E228E42EC00FC56A4 /* AppDelegate.swift */,
 				400F4485228E42ED00FC56A4 /* Assets.xcassets */,
 				400F4487228E42ED00FC56A4 /* LaunchScreen.storyboard */,
@@ -155,14 +152,6 @@
 				400F44A0228E42ED00FC56A4 /* Info.plist */,
 			);
 			path = RefactorMeUITests;
-			sourceTree = "<group>";
-		};
-		400F44AC228E457C00FC56A4 /* Business */ = {
-			isa = PBXGroup;
-			children = (
-				400F44AD228E45D900FC56A4 /* ProductDataConsolidator.swift */,
-			);
-			path = Business;
 			sourceTree = "<group>";
 		};
 		400F44AF228E465000FC56A4 /* Models */ = {
@@ -359,7 +348,6 @@
 				8F2636CE2290EEAC009E82DB /* UIView+Alignments.swift in Sources */,
 				8F2636D92290F097009E82DB /* ProductsListProtocols.swift in Sources */,
 				400F44B1228E465D00FC56A4 /* Product.swift in Sources */,
-				400F44AE228E45D900FC56A4 /* ProductDataConsolidator.swift in Sources */,
 				8F2636E122913FAA009E82DB /* ProductsListViewModel.swift in Sources */,
 				8F2636D72290F097009E82DB /* ProductsListRouter.swift in Sources */,
 				8F2636DF2290FD6C009E82DB /* ProductsFileStore.swift in Sources */,
