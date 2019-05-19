@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		400F447F228E42EC00FC56A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400F447E228E42EC00FC56A4 /* AppDelegate.swift */; };
 		400F4481228E42EC00FC56A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400F4480228E42EC00FC56A4 /* ViewController.swift */; };
-		400F4484228E42EC00FC56A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400F4482228E42EC00FC56A4 /* Main.storyboard */; };
 		400F4486228E42ED00FC56A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400F4485228E42ED00FC56A4 /* Assets.xcassets */; };
 		400F4489228E42ED00FC56A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400F4487228E42ED00FC56A4 /* LaunchScreen.storyboard */; };
 		400F4494228E42ED00FC56A4 /* RefactorMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400F4493228E42ED00FC56A4 /* RefactorMeTests.swift */; };
@@ -19,6 +18,8 @@
 		400F44B6228E4CBF00FC56A4 /* Sunglasses.json in Resources */ = {isa = PBXBuildFile; fileRef = 400F44B3228E4CBE00FC56A4 /* Sunglasses.json */; };
 		400F44B7228E4CBF00FC56A4 /* Phones.json in Resources */ = {isa = PBXBuildFile; fileRef = 400F44B4228E4CBE00FC56A4 /* Phones.json */; };
 		400F44B8228E4CBF00FC56A4 /* Cameras.json in Resources */ = {isa = PBXBuildFile; fileRef = 400F44B5228E4CBF00FC56A4 /* Cameras.json */; };
+		8F2636CD2290EEAC009E82DB /* UIColor+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2636CB2290EEAC009E82DB /* UIColor+Convenience.swift */; };
+		8F2636CE2290EEAC009E82DB /* UIView+Alignments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2636CC2290EEAC009E82DB /* UIView+Alignments.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +43,6 @@
 		400F447B228E42EC00FC56A4 /* RefactorMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefactorMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		400F447E228E42EC00FC56A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		400F4480228E42EC00FC56A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		400F4483228E42EC00FC56A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		400F4485228E42ED00FC56A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		400F4488228E42ED00FC56A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		400F448A228E42ED00FC56A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +57,8 @@
 		400F44B3228E4CBE00FC56A4 /* Sunglasses.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sunglasses.json; sourceTree = "<group>"; };
 		400F44B4228E4CBE00FC56A4 /* Phones.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Phones.json; sourceTree = "<group>"; };
 		400F44B5228E4CBF00FC56A4 /* Cameras.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cameras.json; sourceTree = "<group>"; };
+		8F2636CB2290EEAC009E82DB /* UIColor+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Convenience.swift"; sourceTree = "<group>"; };
+		8F2636CC2290EEAC009E82DB /* UIView+Alignments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Alignments.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,12 +109,12 @@
 		400F447D228E42EC00FC56A4 /* RefactorMe */ = {
 			isa = PBXGroup;
 			children = (
+				8F2636C82290EDE3009E82DB /* Extensions */,
 				400F44B2228E46F600FC56A4 /* Data */,
 				400F44AF228E465000FC56A4 /* Models */,
 				400F44AC228E457C00FC56A4 /* Business */,
 				400F447E228E42EC00FC56A4 /* AppDelegate.swift */,
 				400F4480228E42EC00FC56A4 /* ViewController.swift */,
-				400F4482228E42EC00FC56A4 /* Main.storyboard */,
 				400F4485228E42ED00FC56A4 /* Assets.xcassets */,
 				400F4487228E42ED00FC56A4 /* LaunchScreen.storyboard */,
 				400F448A228E42ED00FC56A4 /* Info.plist */,
@@ -162,6 +164,15 @@
 				400F44B3228E4CBE00FC56A4 /* Sunglasses.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		8F2636C82290EDE3009E82DB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8F2636CB2290EEAC009E82DB /* UIColor+Convenience.swift */,
+				8F2636CC2290EEAC009E82DB /* UIView+Alignments.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +282,6 @@
 				400F44B8228E4CBF00FC56A4 /* Cameras.json in Resources */,
 				400F4489228E42ED00FC56A4 /* LaunchScreen.storyboard in Resources */,
 				400F4486228E42ED00FC56A4 /* Assets.xcassets in Resources */,
-				400F4484228E42EC00FC56A4 /* Main.storyboard in Resources */,
 				400F44B7228E4CBF00FC56A4 /* Phones.json in Resources */,
 				400F44B6228E4CBF00FC56A4 /* Sunglasses.json in Resources */,
 			);
@@ -298,10 +308,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F2636CE2290EEAC009E82DB /* UIView+Alignments.swift in Sources */,
 				400F4481228E42EC00FC56A4 /* ViewController.swift in Sources */,
 				400F44B1228E465D00FC56A4 /* Product.swift in Sources */,
 				400F44AE228E45D900FC56A4 /* ProductDataConsolidator.swift in Sources */,
 				400F447F228E42EC00FC56A4 /* AppDelegate.swift in Sources */,
+				8F2636CD2290EEAC009E82DB /* UIColor+Convenience.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,14 +349,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		400F4482228E42EC00FC56A4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				400F4483228E42EC00FC56A4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		400F4487228E42ED00FC56A4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
