@@ -1,0 +1,20 @@
+[
+	{
+		"id":3000,
+		"name":"Oakley Julietta",
+		"price":299.95,
+		"polarised":true
+	},
+	{
+		"id":3001,
+		"name":"Ray Ban Pilot",
+		"price":349.95,
+		"polarised":true
+	},
+	{
+		"id":3002,
+		"name":"Oakley X",
+		"price":199.95,
+		"polarised":false
+	}
+]

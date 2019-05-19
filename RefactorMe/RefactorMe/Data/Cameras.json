@@ -1,0 +1,23 @@
+[
+	{
+		"id":2000,
+		"name":"Canon EOS R3",
+		"price":1999.95,
+		"megaPixels":24,
+		"video":"4K"
+	},
+	{
+		"id":2001,
+		"name":"Sony A7RV",
+		"price":1899.95,
+		"megaPixels":30,
+		"video":"8K"
+	},
+	{
+		"id":2002,
+		"name":"Nikon Z9",
+		"price":1299.95,
+		"megaPixels":22,
+		"video":"4K"
+	}
+]

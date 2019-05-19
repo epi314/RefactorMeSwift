@@ -1,0 +1,20 @@
+[
+	{
+		"id":1000,
+		"name":"iPhone Z",
+		"price":1999.95,
+		"screenSize":6.5
+	},
+	{
+		"id":1001,
+		"name":"Google Pixel U",
+		"price":1499.95,
+		"screenSize":6
+	},
+	{
+		"id":1002,
+		"name":"Huawei P50N",
+		"price":1299.95,
+		"screenSize":6.2
+	}
+]
